@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+.header {
+	height: 100vh;
+	background: radial-gradient(circle, #bacfb9 0%, #82a387 100%);
+	text-align: center;
+	color: white;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header h1 {
+	margin: 10px 0;
+}
+
+.header h1 {
+	text-shadow: 2px 2px 3px rgb(102, 102, 102);
+    font-size: 40px;
+}
+
+.project {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	padding: 200px 0;
+	background: white;
+	height: 100vh;
+}
+
+.project img {
+	height: 300px;
+}
+
+.project h3 {
+	max-width: 500px;
+	text-align: center;
+    font-size: 20px;
+}
+
+.project2, .project4, .project5 {
+	background: #bacfb9;
+	color: white;
+    text-shadow: 2px 2px 4px #9c9e9c;
+}
+.project1, .project3, .project6 {
+    text-shadow: 2px 2px 5px #82a387;
+}
+
+.project1 h2, .project1 h3 {
+	position: relative;
+	top: 310px;
+}
+
+#e {
+	position: relative;
+	left: 530px;
+	top: -200px;
+	height: 350px;
+}
+
+#r {
+position: relative;
+left: -500px;
+top: -100px;
+}
+
+.project2 h2, .project2 h3 {
+	position: relative;
+	top: 220px;
+}
+
+#w {
+position: relative;
+left: 400px;
+top: -220px;
+}
+
+#t {
+position: relative;
+left: -400px;
+top: -70px;
+}
+
+.project3 h2, .project3 h3 {
+	position: relative;
+	top: 220px;
+}
+
+#y {
+position: relative;
+left: 450px;
+top: -150px;
+}
+
+#u {
+position: relative;
+left: -400px;
+top: -50px;
+}
+
+.project4 h2, .project4 h3 {
+	position: relative;
+	top: 300px;
+}
+
+#i {
+	position: relative;
+	left: 370px;
+	top: -170px;
+}
+
+#o {
+	position: relative;
+	left: -400px;
+}
+
+.project6 h3 {
+	position: relative;
+	top: 200px;
+}
+
+#p {
+	height: 250px;
+	position: relative;
+	left: 470px;
+	top: -180px;
+}
+
+#a {
+	height: 250px;
+	position: relative;
+	left: -450px;
+	top: -70px;
+}
+
+.project5 h1 {
+	position: relative;
+	top: 300px;
+}
+
+li, .project5 h4 {
+	position: relative;
+	left: 500px;
+	top: 400px;
+}
+
+#q {
+	position: relative;
+	left: -400px;
+	top: -80px;
+	height: 500px;
+}
